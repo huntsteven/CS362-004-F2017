@@ -1,4 +1,6 @@
-/*modified 10/8/2017*/
+/*modified 10/8/2017 for assignment 2*/
+/*grader: check adventurerCard() , smithyCard() , seaHagCard() , and
+ * outpostCard() for changes*/
 
 #include "dominion.h"
 #include "dominion_helpers.h"
