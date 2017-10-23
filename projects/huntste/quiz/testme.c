@@ -9,14 +9,14 @@
 
 char inputChar()
 {
-	char testedChars[9] = "[](){} ax";
+	char testedChars[10] = "[](){} ax";
 	return testedChars[rand() % sizeof(testedChars)];
 }
 
 char *inputString()
 {
-	char *testedString = malloc(6);
-	char scrambledWord[6] = "tester";
+	char *testedString = (char*)malloc(6);
+	char scrambledWord[7] = "tester";
 	int i;
 	for(i = 0; i < 6; i++){
 		testedString[i] = scrambledWord[rand() % 6];
